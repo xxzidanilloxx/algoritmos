@@ -2,7 +2,7 @@ valor_inicial = int(input("Insira o valor inicial: "))
 valor_final = int(input("Insira o valor inicial: "))
 incremento = int(input("Insira o incremento: "))
 
-while valor_inicial < valor_final + 1:
+while valor_inicial <= valor_final:
     print(valor_inicial)
     valor_inicial = valor_inicial + incremento
 
